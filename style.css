@@ -1,0 +1,156 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9fafb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+input {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 5px;
+
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.kotak {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 370px;
+    height: 471px;
+}
+
+.judul {
+    font-size: 1.1rem;
+    padding-top: 25px;
+    font-weight: 550;
+    text-align: center;
+}
+.subjudul {
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.login-providers {
+    display: flex;
+    gap: 10px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 18px;
+}
+
+.provider-btn {
+    flex: 1;
+    width: 100%;
+    white-space: nowrap;  /* Agar teks tidak turun */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #d6d6d6;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-weight: 600;
+}
+
+.provider-btn img {
+    width: 18px;
+}
+
+.provider-btn:hover {
+    background: #f5f8ff;
+}
+
+.or{
+    display: flex;
+    gap: 12px;
+    margin-right: 45px;
+    margin-left: 45px;
+    height: 1px;
+    margin-bottom: 20px;
+    font-size: 10pt;
+    color: rgb(189, 189, 189);
+}
+.or hr{
+    flex-grow: 1;
+}
+
+.textmailpas {
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+
+.emil {
+    display: flex;
+    flex-direction: column;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 10px;
+}
+
+.pass {
+    display: flex;
+    flex-direction: column;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 10px;
+}
+
+.passgot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.forgot {
+    font-size: 13px;
+    color: rgb(0, 123, 255);
+}
+
+.remember {
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.rmb {
+    padding-top: 2px;
+    padding-left: 3px;
+}
+
+.btn-login {
+    margin-left: 45px;
+    margin-right: 45px;
+    width: 280px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    background-color: #006bfb;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.btn-login:hover {
+    background: #4e83ff;
+}
